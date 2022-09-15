@@ -2,7 +2,7 @@ const { ethers, getNamedAccounts, network } = require("hardhat")
 
 // Build a script that will deposite our token for WETH token
 
-const AMOUNT = "100000000000000000" //(0.1)   /* ethers.utils.parseEther("0.02")*/
+const AMOUNT = ethers.utils.parseEther("0.02")
 
 async function getWeth() {
     // const { deployer } = await getNamedAccounts

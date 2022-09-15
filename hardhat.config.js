@@ -1,11 +1,11 @@
 /** @type import('hardhat/config').HardhatUserConfig */
 //module.exports = {
 //require("hardhat-contract-sizer")
-// require("@nomiclabs/hardhat-waffle")
-// require("@nomiclabs/hardhat-etherscan")
-// require("hardhat-gas-reporter")
-// require("solidity-coverage")
-// require("hardhat-deploy")
+require("@nomiclabs/hardhat-waffle")
+require("@nomiclabs/hardhat-etherscan")
+require("hardhat-gas-reporter")
+require("solidity-coverage")
+require("hardhat-deploy")
 require("dotenv").config()
 // const RINKEBY_RPC_URL =
 // process.env.RINKEBY_RPC_URL || "https://eth-rinkeby.alchemyapi.io/v2/your-api-key"
